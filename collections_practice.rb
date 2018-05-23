@@ -38,8 +38,8 @@ end
 def add_s(words)
   words.collect do |element|
   
-  if element.start_with? "f"
-    "#{element}"
+  if element[1] = element
+    element
   else
     "#{element << "s"}"
     end
